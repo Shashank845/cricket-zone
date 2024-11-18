@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Teams</title>
+    <style>
+        /* Global styles for the website */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #2b6cb0; /* Dark blue background */
+            color: white; /* White text color */
+            padding: 20px; /* Adds space inside header */
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        /* Main content layout */
+        main {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping of team sections */
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        /* Individual team card styles */
+        .team {
+            background-color: white;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            margin: 15px; /* Space around each card */
+            width: 250px; /* Card width */
+            text-align: center; /* Center-aligns text */
+            padding: 15px;
+            transition: transform 0.3s ease; /* Animation for hover effect */
+        }
+
+        .team:hover {
+            transform: scale(1.05); /* Slightly enlarges card on hover */
+        }
+
+        .team img {
+            width: 100%; /* Full width of card */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        .team h2 {
+            color: #2b6cb0; /* Matches header color */
+            margin: 10px 0; /* Spacing above and below */
+        }
+
+        .team p {
+            font-size: 0.9em;
+            color: #555; /* Dark gray for text */
+            margin: 10px 0;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2b6cb0;
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section for the website title -->
+    <header>
+        <h1>Top Cricket Teams in the World</h1>
+    </header>
+
+    <!-- Main content section listing cricket teams -->
+    <main>
+        <!-- Each team has an image, name, and short description -->
+        <section class="team">
+            <img src="india.jpg" alt="India Cricket Team">
+            <h2><a href="india.html">India</a></h2>
+            <p>The Indian Cricket Team is known for its world-class players and has won multiple ICC tournaments.</p>
+        </section>
+
+        <section class="team">
+            <img src="australia.jpg" alt="Australia Cricket Team">
+            <h2><a href="australia.html">Australia</a></h2>
+            <p>Australia has a long history of success in cricket and is known for its aggressive style of play.</p>
+        </section>
+
+        <section class="team">
+            <img src="england3.webp" alt="England Cricket Team">
+            <h2><a href="england.html">England</a></h2>
+            <p>England is the birthplace of cricket and has been one of the top teams in world cricket.</p>
+        </section>
+
+        <section class="team">
+            <img src="south african.jpg" alt="South Africa Cricket Team">
+            <h2><a href="south african.html">South Africa</a></h2>
+            <p>Known for its strong fielding, South Africa has always been a tough team to beat.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cricket Teams Website</p>
+    </footer>
+</body>
+</html>

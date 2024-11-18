@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia Cricket Team Record</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .table-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .cricket-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cricket-table th, .cricket-table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .cricket-table th {
+            background-color: #ff9933;
+            color: white;
+        }
+
+        .cricket-table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .cricket-table tbody tr:hover {
+            background-color: #ddd;
+        }
+
+        .cricket-table td {
+            color: #555;
+        }
+
+        .cricket-table tbody tr td:nth-child(6) {
+            font-weight: bold;
+            color: #ff9933;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Australia Cricket Team Record</h2>
+        <table class="cricket-table">
+            <thead>
+                <tr>
+                    <th>Format</th>
+                    <th>Matches Played</th>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws/Ties</th>
+                    <th>Win Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test</td>
+                    <td>830</td>
+                    <td>400</td>
+                    <td>226</td>
+                    <td>204</td>
+                    <td>48.19%</td>
+                </tr>
+                <tr>
+                    <td>ODI</td>
+                    <td>950</td>
+                    <td>588</td>
+                    <td>333</td>
+                    <td>29</td>
+                    <td>61.89%</td>
+                </tr>
+                <tr>
+                    <td>T20I</td>
+                    <td>170</td>
+                    <td>91</td>
+                    <td>75</td>
+                    <td>4</td>
+                    <td>53.53%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
